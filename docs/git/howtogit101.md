@@ -60,3 +60,41 @@ https://github.com/user-attachments/assets/c054bcb1-274f-4cdb-87fa-613cf8fbc963
 <p>⚠️ If Unity Hub shows a warning about a missing <b>Editor version</b>, click <b>Install</b> and let it install the version it asks for. Don't pick a different version.</p>
 
 <p>✅ You're ready to work!</p>
+
+<h2>Part 3: Commit & Push</h2>
+
+<h3>Video</h3>
+
+Videohere
+
+<p>The video has no sound. The steps below follow along with it.</p>
+
+---
+
+<h3>1. Do your work</h3>
+<p>Make your changes in Unity (add images, scripts, anything) and save.</p>
+
+<h3>2. Make your branch</h3>
+<ol>
+  <li>Open GitHub Desktop</li>
+  <li>Click <b>Current branch: main</b> → <b>New branch</b></li>
+  <li>Name it <code>Unity_YourName</code> (e.g. <code>Unity_Perm</code>)</li>
+  <li>Click <b>Create branch</b></li>
+  <li>If it asks what to do with your changes, choose <b>Bring my changes to Unity_YourName</b></li>
+</ol>
+
+<p>⚠️ <b>Never commit to <code>main</code>.</b> Check the top says your branch name.</p>
+
+<h3>3. Commit</h3>
+<ol>
+  <li>In the <b>Summary</b> box (bottom left), write what you did, e.g. <code>add submarine sprite</code></li>
+  <li>Click <b>Commit to Unity_YourName</b></li>
+</ol>
+
+<h3>4. Push</h3>
+<ol>
+  <li>Click <b>Publish branch</b> at the top (or <b>Push origin</b> after the first time)</li>
+  <li>The first time, it asks you to sign in. Click <b>Continue with browser</b>, then <b>Authorize</b>, then <b>Open GitHub Desktop</b> when the browser asks</li>
+</ol>
+
+<p>✅ Your work is on GitHub</p>
