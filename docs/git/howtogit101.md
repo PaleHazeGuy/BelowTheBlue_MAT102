@@ -40,7 +40,7 @@ https://github.com/user-attachments/assets/8260ad19-5312-49b1-bdd3-3939a5c3db58
 
 <h3>Video</h3>
 
-Vidlink
+https://github.com/user-attachments/assets/c054bcb1-274f-4cdb-87fa-613cf8fbc963
 
 <p>The video has no sound. The steps below follow along with it.</p>
 
