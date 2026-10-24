@@ -4,15 +4,17 @@
 
 ---
 
-<h2>Video</h2>
+
+<h2>Part 1: Setup (only once)</h2>
+
+
+<h3>Video</h3>
 
 https://github.com/user-attachments/assets/8260ad19-5312-49b1-bdd3-3939a5c3db58
 
 <p>The video has no sound. The steps below follow along with it.</p>
 
 ---
-
-<h2>Part 1: Setup (only once)</h2>
 
 <h3>1. Install GitHub Desktop</h3>
 <p><a href="https://central.github.com/deployments/desktop/desktop/latest/win32">Click here to download</a></p>
@@ -33,3 +35,28 @@ https://github.com/user-attachments/assets/8260ad19-5312-49b1-bdd3-3939a5c3db58
 <p>✅ The project is now on your computer, in your <b>Documents</b> folder.</p>
 
 ---
+
+<h2>Part 2: Unity Setup</h2>
+
+<h3>Video</h3>
+
+Vidlink
+
+<p>The video has no sound. The steps below follow along with it.</p>
+
+---
+
+<h3>1. Add the project to Unity Hub</h3>
+<ol>
+  <li>Open <b>Unity Hub</b></li>
+  <li>Click <b>Add</b> → <b>Add project from disk</b></li>
+  <li>Go to <code>Documents\GitHub\BelowTheBlue_MAT102</code></li>
+  <li>Select the <b><code>unity</code></b> folder (<b>not</b> the whole project folder) and click <b>Add Project</b></li>
+</ol>
+
+<h3>2. Open it</h3>
+<p>Click the project in Unity Hub's list to open it.</p>
+
+<p>⚠️ If Unity Hub shows a warning about a missing <b>Editor version</b>, click <b>Install</b> and let it install the version it asks for. Don't pick a different version.</p>
+
+<p>✅ You're ready to work!</p>
