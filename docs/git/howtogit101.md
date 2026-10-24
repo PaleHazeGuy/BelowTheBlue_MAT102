@@ -65,7 +65,7 @@ https://github.com/user-attachments/assets/c054bcb1-274f-4cdb-87fa-613cf8fbc963
 
 <h3>Video</h3>
 
-Videohere
+https://github.com/user-attachments/assets/f2953f5b-684e-4f43-90f2-3df3a18b5d62
 
 <p>The video has no sound. The steps below follow along with it.</p>
 
@@ -97,4 +97,4 @@ Videohere
   <li>The first time, it asks you to sign in. Click <b>Continue with browser</b>, then <b>Authorize</b>, then <b>Open GitHub Desktop</b> when the browser asks</li>
 </ol>
 
-<p>✅ Your work is on GitHub</p>
+<p>✅ Your work is on now GitHub</p>
