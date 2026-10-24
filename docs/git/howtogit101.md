@@ -6,6 +6,8 @@
 
 <h2>Video</h2>
 
+https://github.com/user-attachments/assets/8260ad19-5312-49b1-bdd3-3939a5c3db58
+
 <p>The video has no sound. The steps below follow along with it.</p>
 
 ---
