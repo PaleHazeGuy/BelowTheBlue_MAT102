@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: 6110180833c7c8e31addc52e5ff06ea8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1603237267746337736
+    second: Batoids_0
+  - first:
+      213: -3521091338271349951
+    second: Batoids_1
+  - first:
+      213: 4542618332949349865
+    second: Batoids_2
+  - first:
+      213: 2119880517877033819
+    second: Batoids_3
+  - first:
+      213: 7601100183047522155
+    second: Batoids_4
+  - first:
+      213: -5555349722065520098
+    second: Batoids_5
+  - first:
+      213: -7062236100344417267
+    second: Batoids_6
+  - first:
+      213: -3337667526635685473
+    second: Batoids_7
+  - first:
+      213: -501677361694542541
+    second: Batoids_8
+  - first:
+      213: 6485400556448815338
+    second: Batoids_9
+  - first:
+      213: 1843643827982825384
+    second: Batoids_10
+  - first:
+      213: -6960379813866239226
+    second: Batoids_11
+  - first:
+      213: -4291509625503837310
+    second: Batoids_12
+  - first:
+      213: -7903793480155949480
+    second: Batoids_13
+  - first:
+      213: -2321498196430736735
+    second: Batoids_14
+  - first:
+      213: -3882541065120102003
+    second: Batoids_15
+  - first:
+      213: 4976098993026142624
+    second: Batoids_16
+  - first:
+      213: -1764371828223189278
+    second: Batoids_17
+  - first:
+      213: 1915377854114432043
+    second: Batoids_18
+  - first:
+      213: -8530941401369726377
+    second: Batoids_19
+  - first:
+      213: 8229829929287292779
+    second: Batoids_20
+  - first:
+      213: -464086130384965703
+    second: Batoids_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Batoids_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1233
+        height: 1220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c330bafcc7df3610800000000000000
+      internalID: 1603237267746337736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Batoids_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 989
+        width: 5
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 143a1a85512922fc0800000000000000
+      internalID: -3521091338271349951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Batoids_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 725
+        width: 5
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e58f955e4f9a0f30800000000000000
+      internalID: 4542618332949349865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Batoids_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 714
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5be45279145b6d10800000000000000
+      internalID: 2119880517877033819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Batoids_4
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 693
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6744b818588c7960800000000000000
+      internalID: 7601100183047522155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Batoids_5
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 690
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1a383d7cde67e2b0800000000000000
+      internalID: -5555349722065520098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Batoids_6
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 160
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d04f70f1fa5edfd90800000000000000
+      internalID: -7062236100344417267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Batoids_7
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 160
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f99f58871193ea1d0800000000000000
+      internalID: -3337667526635685473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Batoids_8
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 124
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3357758f81fa909f0800000000000000
+      internalID: -501677361694542541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Batoids_9
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 150
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae89049e175c00a50800000000000000
+      internalID: 6485400556448815338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Batoids_10
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 110
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a7f1432b40f59910800000000000000
+      internalID: 1843643827982825384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Batoids_11
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 95
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60b04bcdf63c76f90800000000000000
+      internalID: -6960379813866239226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Batoids_12
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 93
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2839ca5abbe7174c0800000000000000
+      internalID: -4291509625503837310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Batoids_13
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 87
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8569145b4b5105290800000000000000
+      internalID: -7903793480155949480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Batoids_14
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 87
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a2390fa0b168cfd0800000000000000
+      internalID: -2321498196430736735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Batoids_15
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 83
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8946abc8717e1ac0800000000000000
+      internalID: -3882541065120102003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Batoids_16
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 83
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a1908e6ba7ae0540800000000000000
+      internalID: 4976098993026142624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Batoids_17
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 63
+        width: 33
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eedc079b21b387e0800000000000000
+      internalID: -1764371828223189278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Batoids_18
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 63
+        width: 42
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b24042d920ac49a10800000000000000
+      internalID: 1915377854114432043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Batoids_19
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 65
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7523fab8ef10c9980800000000000000
+      internalID: -8530941401369726377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Batoids_20
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 63
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b671c0997ba363270800000000000000
+      internalID: 8229829929287292779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Batoids_21
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 38
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bfe73d8f1c3f89f0800000000000000
+      internalID: -464086130384965703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Batoids_0: 1603237267746337736
+      Batoids_1: -3521091338271349951
+      Batoids_10: 1843643827982825384
+      Batoids_11: -6960379813866239226
+      Batoids_12: -4291509625503837310
+      Batoids_13: -7903793480155949480
+      Batoids_14: -2321498196430736735
+      Batoids_15: -3882541065120102003
+      Batoids_16: 4976098993026142624
+      Batoids_17: -1764371828223189278
+      Batoids_18: 1915377854114432043
+      Batoids_19: -8530941401369726377
+      Batoids_2: 4542618332949349865
+      Batoids_20: 8229829929287292779
+      Batoids_21: -464086130384965703
+      Batoids_3: 2119880517877033819
+      Batoids_4: 7601100183047522155
+      Batoids_5: -5555349722065520098
+      Batoids_6: -7062236100344417267
+      Batoids_7: -3337667526635685473
+      Batoids_8: -501677361694542541
+      Batoids_9: 6485400556448815338
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
