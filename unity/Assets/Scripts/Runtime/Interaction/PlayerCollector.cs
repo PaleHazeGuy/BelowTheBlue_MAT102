@@ -11,6 +11,7 @@ namespace BelowTheBlue.Interaction
         [SerializeField] private LayerMask collectibleLayers = Physics2D.DefaultRaycastLayers;
 
         private readonly Collider2D[] nearby = new Collider2D[16];
+        private Collectible highlightedCollectible;
 
         private void Awake()
         {
@@ -19,11 +20,23 @@ namespace BelowTheBlue.Interaction
 
         private void Update()
         {
-            if (input == null || !input.InteractPressedThisFrame)
+            Collectible closest = FindClosestCollectible();
+            if (closest != highlightedCollectible)
             {
-                return;
+                highlightedCollectible?.SetHighlighted(false);
+                highlightedCollectible = closest;
+                highlightedCollectible?.SetHighlighted(true);
             }
 
+            if (input != null && input.InteractPressedThisFrame)
+            {
+                closest?.Collect(transform);
+                highlightedCollectible = null;
+            }
+        }
+
+        private Collectible FindClosestCollectible()
+        {
             int count = Physics2D.OverlapCircle(transform.position, range, new ContactFilter2D
             {
                 useLayerMask = true,
@@ -51,7 +64,13 @@ namespace BelowTheBlue.Interaction
                 }
             }
 
-            closest?.Collect();
+            return closest;
+        }
+
+        private void OnDisable()
+        {
+            highlightedCollectible?.SetHighlighted(false);
+            highlightedCollectible = null;
         }
 
         private void OnDrawGizmosSelected()

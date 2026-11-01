@@ -10,10 +10,12 @@ namespace BelowTheBlue.Player
         [SerializeField, Min(0f)] private float moveSpeed = 4f;
         [SerializeField, Range(0f, 90f)] private float maxTiltAngle = 30f;
         [SerializeField, Min(0f)] private float turnSpeed = 180f;
+        [SerializeField, Min(0f)] private float knockbackDecay = 20f;
 
         private Rigidbody2D body;
         private SpriteRenderer targetRenderer;
         private int lastHorizontalDirection = -1;
+        private Vector2 knockbackVelocity;
 
         private void Awake()
         {
@@ -26,7 +28,11 @@ namespace BelowTheBlue.Player
         private void FixedUpdate()
         {
             Vector2 move = input == null ? Vector2.zero : input.Current.Move;
-            body.linearVelocity = move * moveSpeed;
+            body.linearVelocity = move * moveSpeed + knockbackVelocity;
+            knockbackVelocity = Vector2.MoveTowards(
+                knockbackVelocity,
+                Vector2.zero,
+                knockbackDecay * Time.fixedDeltaTime);
 
             if (move.sqrMagnitude > 0.0001f)
             {
@@ -62,6 +68,11 @@ namespace BelowTheBlue.Player
                         turnSpeed * Time.fixedDeltaTime));
                 }
             }
+        }
+
+        public void ApplyKnockback(Vector2 velocity)
+        {
+            knockbackVelocity = velocity;
         }
 
         private void OnDisable()

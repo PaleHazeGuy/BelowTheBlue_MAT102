@@ -12,11 +12,14 @@ GameObject:
   - component: {fileID: 2559320031691333426}
   - component: {fileID: 7007624947133641085}
   - component: {fileID: 7697690001322515298}
+  - component: {fileID: 3598335404347237373}
   - component: {fileID: 5073415316543504112}
   - component: {fileID: 6611040978517659168}
   - component: {fileID: 5032597583648418018}
   - component: {fileID: 311316087373296497}
   - component: {fileID: 9013742962567827752}
+  - component: {fileID: 6253761076055418387}
+  - component: {fileID: 1860700357991826784}
   m_Layer: 0
   m_Name: Submarine
   m_TagString: Player
@@ -160,7 +163,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -2.8798125}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -170,7 +173,53 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 15.77, y: 13.71}
+  m_Size: {x: 15.77, y: 7.950374}
+  m_EdgeRadius: 0
+--- !u!61 &3598335404347237373
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4730186854074664831}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.93, y: 3.04}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15.77, y: 13.71}
+    newSize: {x: 15.77, y: 13.71}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 5, y: 8.67}
   m_EdgeRadius: 0
 --- !u!114 &5073415316543504112
 MonoBehaviour:
@@ -213,6 +262,7 @@ MonoBehaviour:
   moveSpeed: 4
   maxTiltAngle: 30
   turnSpeed: 180
+  knockbackDecay: 20
 --- !u!114 &311316087373296497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -244,4 +294,40 @@ MonoBehaviour:
   range: 1.5
   collectibleLayers:
     serializedVersion: 2
-    m_Bits: 4294967291
+    m_Bits: 51
+--- !u!114 &6253761076055418387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4730186854074664831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a547fb0eb67f4ed0a9fca2b77d22c131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BelowTheBlue.Runtime::BelowTheBlue.Core.Health
+  maximum: 3
+  submarineRenderer: {fileID: 2559320031691333426}
+  hitSprite: {fileID: -1601325826436931933, guid: 50012bb5c9c0c382ab2e25e33219cc15, type: 3}
+  deadSprite: {fileID: 2649847697073447219, guid: 82503e1c2673513978571280f0fda6ef, type: 3}
+  damageTint: {r: 1, g: 0.25, b: 0.25, a: 1}
+  damageTintDuration: 0.18
+--- !u!114 &1860700357991826784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4730186854074664831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5bb3d392e6a44bd99528b7ba1ff48a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BelowTheBlue.Runtime::BelowTheBlue.World.SinkingEnding
+  duration: 2.4
+  minimumSpiralTurns: 2
+  maximumSpiralTurns: 4
+  finalScale: 0.04
+  cameraZoomSize: 2.5
+  cameraFollowSpeed: 6
