@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 #include <stdint.h>
 #include <stdbool.h>
@@ -24,7 +25,7 @@ static void bt_cb(esp_spp_cb_event_t event, esp_spp_cb_param_t *p) {
         case ESP_SPP_START_EVT:
             ESP_ERROR_CHECK(esp_bt_gap_set_scan_mode(
                 ESP_BT_CONNECTABLE, ESP_BT_GENERAL_DISCOVERABLE));
-            printf("Sigma Controller discoverable!\n");
+            printf("Sigma Controller ready!\n");
             break;
 
         case ESP_SPP_SRV_OPEN_EVT:
@@ -34,8 +35,8 @@ static void bt_cb(esp_spp_cb_event_t event, esp_spp_cb_param_t *p) {
             break;
 
         case ESP_SPP_CLOSE_EVT:
-            client = 0;
             ready = false;
+            client = 0;
             printf("Client disconnected!\n");
             break;
 
@@ -66,15 +67,31 @@ void app_main(void) {
     esp_spp_cfg_t spp = {.mode = ESP_SPP_MODE_CB};
     ESP_ERROR_CHECK(esp_spp_enhanced_init(&spp));
 
-    static uint8_t msg[] = "Hello World!\n";
+    static char msg[64];
+    int tick = 0;
 
     while (1) {
         if (client && ready) {
+
+            float moveX = (float)((tick % 21) - 10) / 10.0f;
+            float moveY = (float)(((tick + 10) % 21) - 10) / 10.0f;
+            int interact = (tick % 20 < 5) ? 1 : 0;
+
+            int len = snprintf(msg, sizeof(msg),
+                "moveX:%.2f,moveY:%.2f,Interact:%d\n",
+                moveX, moveY, interact);
+
             ready = false;
-            if (esp_spp_write(client, sizeof(msg) - 1, msg) != ESP_OK)
+
+            if (len > 0 && len < sizeof(msg) &&
+                esp_spp_write(client, len, (uint8_t *)msg) == ESP_OK) {
+                tick++;
+            } else {
                 ready = true;
+            }
         }
-        vTaskDelay(pdMS_TO_TICKS(1000));
+
+        vTaskDelay(pdMS_TO_TICKS(100));
     }
 }
 
