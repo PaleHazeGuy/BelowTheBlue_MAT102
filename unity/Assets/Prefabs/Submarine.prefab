@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 6611040978517659168}
   - component: {fileID: 5032597583648418018}
   - component: {fileID: 311316087373296497}
+  - component: {fileID: 9013742962567827752}
   m_Layer: 0
   m_Name: Submarine
   m_TagString: Player
@@ -227,3 +228,20 @@ MonoBehaviour:
   input: {fileID: 0}
   targetRenderer: {fileID: 0}
   activeColor: {r: 0.3, g: 1, b: 1, a: 1}
+--- !u!114 &9013742962567827752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4730186854074664831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29fefac4417f4bdca291d117cb806395, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BelowTheBlue.Runtime::BelowTheBlue.Interaction.PlayerCollector
+  input: {fileID: 0}
+  range: 1.5
+  collectibleLayers:
+    serializedVersion: 2
+    m_Bits: 4294967291
