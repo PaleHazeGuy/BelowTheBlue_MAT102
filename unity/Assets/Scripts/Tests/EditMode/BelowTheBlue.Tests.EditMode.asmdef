@@ -2,7 +2,9 @@
   "name": "BelowTheBlue.Tests.EditMode",
   "rootNamespace": "BelowTheBlue.Tests",
   "references": [
-    "BelowTheBlue.Runtime"
+    "BelowTheBlue.Runtime",
+    "Unity.InputSystem",
+    "Unity.InputSystem.TestFramework"
   ],
   "includePlatforms": [
     "Editor"

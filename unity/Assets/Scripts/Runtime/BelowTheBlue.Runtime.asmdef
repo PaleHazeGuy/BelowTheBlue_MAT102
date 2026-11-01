@@ -1,7 +1,9 @@
 {
   "name": "BelowTheBlue.Runtime",
   "rootNamespace": "BelowTheBlue",
-  "references": [],
+  "references": [
+    "Unity.InputSystem"
+  ],
   "includePlatforms": [],
   "excludePlatforms": [],
   "allowUnsafeCode": false,
