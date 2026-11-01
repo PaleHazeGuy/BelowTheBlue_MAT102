@@ -1,0 +1,21 @@
+{
+  "name": "BelowTheBlue.Tests.EditMode",
+  "rootNamespace": "BelowTheBlue.Tests",
+  "references": [
+    "BelowTheBlue.Runtime"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false,
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}
