@@ -1,0 +1,16 @@
+{
+  "serial": {
+    "enabled": true,
+    "port": "auto",
+    "preferredDeviceName": "Sigma Controller",
+    "baudRate": 115200,
+    "readTimeoutMs": 100,
+    "packetTimeoutMs": 500,
+    "reconnectIntervalMs": 2000
+  },
+  "input": {
+    "deadZone": 0.15,
+    "invertX": false,
+    "invertY": false
+  }
+}

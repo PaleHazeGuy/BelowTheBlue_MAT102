@@ -15,6 +15,9 @@
 /[Uu]ser[Ss]ettings/
 *.log
 
+# Runtime settings are generated beside the editor/build and vary by machine.
+/config.json
+
 # By default unity supports Blender asset imports, *.blend1 blender files do not need to be commited to version control.
 *.blend1
 *.blend1.meta
