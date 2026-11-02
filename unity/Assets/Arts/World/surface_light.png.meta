@@ -1,0 +1,1053 @@
+fileFormatVersion: 2
+guid: ef2978352cc3322099a3f4e110910696
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2000580738794716067
+    second: surface_light_0
+  - first:
+      213: 7983242402667521536
+    second: surface_light_1
+  - first:
+      213: -2580864126095855254
+    second: surface_light_2
+  - first:
+      213: -1908429470363748862
+    second: surface_light_3
+  - first:
+      213: 6572249543247970989
+    second: surface_light_4
+  - first:
+      213: 8200875559927871990
+    second: surface_light_5
+  - first:
+      213: -7279092483986982069
+    second: surface_light_6
+  - first:
+      213: 2095631920732625063
+    second: surface_light_7
+  - first:
+      213: 6404923854845547607
+    second: surface_light_8
+  - first:
+      213: 3047780098768143343
+    second: surface_light_9
+  - first:
+      213: -7233415459655989959
+    second: surface_light_10
+  - first:
+      213: -2277072038268871790
+    second: surface_light_11
+  - first:
+      213: -5259513331666411714
+    second: surface_light_12
+  - first:
+      213: -4114307084619938334
+    second: surface_light_13
+  - first:
+      213: 7192529376141306658
+    second: surface_light_14
+  - first:
+      213: -7088906056417482146
+    second: surface_light_15
+  - first:
+      213: 6042946651649730662
+    second: surface_light_16
+  - first:
+      213: 4674883230943747371
+    second: surface_light_17
+  - first:
+      213: -5854781669799092395
+    second: surface_light_18
+  - first:
+      213: -505303497911436978
+    second: surface_light_19
+  - first:
+      213: -7217205386361267091
+    second: surface_light_20
+  - first:
+      213: 2384146633457515431
+    second: surface_light_21
+  - first:
+      213: -6864260304491397283
+    second: surface_light_22
+  - first:
+      213: -2713119719185261797
+    second: surface_light_23
+  - first:
+      213: -513943617297036744
+    second: surface_light_24
+  - first:
+      213: 2864914350170445713
+    second: surface_light_25
+  - first:
+      213: 1085700712097598199
+    second: surface_light_26
+  - first:
+      213: -1354975377878316730
+    second: surface_light_27
+  - first:
+      213: 6511565858928445824
+    second: surface_light_28
+  - first:
+      213: -3987458909501044248
+    second: surface_light_29
+  - first:
+      213: 6252029046945091986
+    second: surface_light_30
+  - first:
+      213: 5863168328652226605
+    second: surface_light_31
+  - first:
+      213: -7294730273534958533
+    second: surface_light_32
+  - first:
+      213: 8099224985079684111
+    second: surface_light_33
+  - first:
+      213: -4259709405005785170
+    second: surface_light_34
+  - first:
+      213: -6269924879338273583
+    second: surface_light_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: surface_light_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2048
+        height: 2048
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5407a7ea628c34e0800000000000000
+      internalID: -2000580738794716067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: surface_light_1
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 6
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00665de0bac2ace60800000000000000
+      internalID: 7983242402667521536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: surface_light_2
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 181
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a61f18650cdee2cd0800000000000000
+      internalID: -2580864126095855254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: surface_light_3
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 181
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 206f41c0285e385e0800000000000000
+      internalID: -1908429470363748862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: surface_light_4
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 242
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da2c4886322553b50800000000000000
+      internalID: 6572249543247970989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: surface_light_5
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 171
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f9fea42fdc5fc170800000000000000
+      internalID: 8200875559927871990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: surface_light_6
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 209
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4b7dbcb3f77bfa90800000000000000
+      internalID: -7279092483986982069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: surface_light_7
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 243
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a8dc37f02e251d10800000000000000
+      internalID: 2095631920732625063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: surface_light_8
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 227
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7549e7daf4cd2e850800000000000000
+      internalID: 6404923854845547607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: surface_light_9
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 219
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe3849c1ad3eb4a20800000000000000
+      internalID: 3047780098768143343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: surface_light_10
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 215
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 935c266b6febd9b90800000000000000
+      internalID: -7233415459655989959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: surface_light_11
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 229
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b520fab073660e0800000000000000
+      internalID: -2277072038268871790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: surface_light_12
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 226
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f979ead747207b0800000000000000
+      internalID: -5259513331666411714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: surface_light_13
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 236
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e50b5c418b07e6c0800000000000000
+      internalID: -4114307084619938334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: surface_light_14
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 242
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22be6752c5ff0d360800000000000000
+      internalID: 7192529376141306658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: surface_light_15
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 238
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5aee1510852f9d90800000000000000
+      internalID: -7088906056417482146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: surface_light_16
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 221
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 668e73876fbdcd350800000000000000
+      internalID: 6042946651649730662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: surface_light_17
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 221
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2d15daa78580e040800000000000000
+      internalID: 4674883230943747371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: surface_light_18
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 239
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55f182e5713afbea0800000000000000
+      internalID: -5854781669799092395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: surface_light_19
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 245
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e49f937552dccf8f0800000000000000
+      internalID: -505303497911436978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: surface_light_20
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 239
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6c96e280f557db90800000000000000
+      internalID: -7217205386361267091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: surface_light_21
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 229
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7abbdab3bb0361120800000000000000
+      internalID: 2384146633457515431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: surface_light_22
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 211
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5fb9f81f9f3db0a0800000000000000
+      internalID: -6864260304491397283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: surface_light_23
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 234
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1bdad87dff095ad0800000000000000
+      internalID: -2713119719185261797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: surface_light_24
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 240
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83a4e68c00b1ed8f0800000000000000
+      internalID: -513943617297036744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: surface_light_25
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 203
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19714d92c6832c720800000000000000
+      internalID: 2864914350170445713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: surface_light_26
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 187
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fa47fc9b0f211f00800000000000000
+      internalID: 1085700712097598199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: surface_light_27
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 207
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6498922a219223de0800000000000000
+      internalID: -1354975377878316730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: surface_light_28
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 244
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 089cdf026aabd5a50800000000000000
+      internalID: 6511565858928445824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: surface_light_29
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 215
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e949be8f33b9a8c0800000000000000
+      internalID: -3987458909501044248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: surface_light_30
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 223
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29116942b4ba3c650800000000000000
+      internalID: 6252029046945091986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: surface_light_31
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 238
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2003afc7882e5150800000000000000
+      internalID: 5863168328652226605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: surface_light_32
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 187
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3429a12779e3ca90800000000000000
+      internalID: -7294730273534958533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: surface_light_33
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 233
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0c94af563a366070800000000000000
+      internalID: 8099224985079684111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: surface_light_34
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 218
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea75d347dd872e4c0800000000000000
+      internalID: -4259709405005785170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: surface_light_35
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 232
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d488aeaa80ccf8a0800000000000000
+      internalID: -6269924879338273583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      surface_light_0: -2000580738794716067
+      surface_light_1: 7983242402667521536
+      surface_light_10: -7233415459655989959
+      surface_light_11: -2277072038268871790
+      surface_light_12: -5259513331666411714
+      surface_light_13: -4114307084619938334
+      surface_light_14: 7192529376141306658
+      surface_light_15: -7088906056417482146
+      surface_light_16: 6042946651649730662
+      surface_light_17: 4674883230943747371
+      surface_light_18: -5854781669799092395
+      surface_light_19: -505303497911436978
+      surface_light_2: -2580864126095855254
+      surface_light_20: -7217205386361267091
+      surface_light_21: 2384146633457515431
+      surface_light_22: -6864260304491397283
+      surface_light_23: -2713119719185261797
+      surface_light_24: -513943617297036744
+      surface_light_25: 2864914350170445713
+      surface_light_26: 1085700712097598199
+      surface_light_27: -1354975377878316730
+      surface_light_28: 6511565858928445824
+      surface_light_29: -3987458909501044248
+      surface_light_3: -1908429470363748862
+      surface_light_30: 6252029046945091986
+      surface_light_31: 5863168328652226605
+      surface_light_32: -7294730273534958533
+      surface_light_33: 8099224985079684111
+      surface_light_34: -4259709405005785170
+      surface_light_35: -6269924879338273583
+      surface_light_4: 6572249543247970989
+      surface_light_5: 8200875559927871990
+      surface_light_6: -7279092483986982069
+      surface_light_7: 2095631920732625063
+      surface_light_8: 6404923854845547607
+      surface_light_9: 3047780098768143343
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

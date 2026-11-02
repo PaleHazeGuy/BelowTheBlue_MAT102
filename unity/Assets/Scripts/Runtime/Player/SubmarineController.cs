@@ -57,7 +57,6 @@ namespace BelowTheBlue.Player
 
                 if (lastHorizontalDirection != previousHorizontalDirection)
                 {
-                    // A left/right change is a mirror operation, not a long turn.
                     body.SetRotation(targetAngle);
                 }
                 else

@@ -16,6 +16,7 @@ namespace BelowTheBlue.Interaction
         [SerializeField, Range(0.5f, 2f)] private float spiralTurns = 1f;
 
         public string ItemId => itemId;
+        public SpriteRenderer Renderer => targetRenderer;
         private Color normalColor = Color.white;
         private bool isCollecting;
 
@@ -34,6 +35,29 @@ namespace BelowTheBlue.Interaction
             {
                 targetRenderer.color = highlighted ? highlightColor : normalColor;
             }
+        }
+
+        public bool BeginCapture()
+        {
+            if (isCollecting)
+            {
+                return false;
+            }
+
+            isCollecting = true;
+            SetHighlighted(false);
+            foreach (Collider2D itemCollider in GetComponentsInChildren<Collider2D>())
+            {
+                itemCollider.enabled = false;
+            }
+
+            return true;
+        }
+
+        public void CompleteCapture()
+        {
+            Collected?.Invoke(this);
+            Destroy(gameObject);
         }
 
         public void Collect(Transform collector)
