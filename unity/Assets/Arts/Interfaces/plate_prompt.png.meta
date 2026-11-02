@@ -1,0 +1,1313 @@
+fileFormatVersion: 2
+guid: 8948f63277ff3d0aeb310581ffa498d2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -710399070354808378
+    second: plate_prompt_0
+  - first:
+      213: -5590595713196216444
+    second: plate_prompt_1
+  - first:
+      213: 75969960109748590
+    second: plate_prompt_2
+  - first:
+      213: 852224195506574430
+    second: plate_prompt_3
+  - first:
+      213: -9094928198916873248
+    second: plate_prompt_4
+  - first:
+      213: 8232191357461855816
+    second: plate_prompt_5
+  - first:
+      213: -6059192310571141218
+    second: plate_prompt_6
+  - first:
+      213: 518971434335466014
+    second: plate_prompt_7
+  - first:
+      213: -8857175647890657390
+    second: plate_prompt_8
+  - first:
+      213: 5585115148152312015
+    second: plate_prompt_9
+  - first:
+      213: -4089536947184113013
+    second: plate_prompt_10
+  - first:
+      213: -2341528613574729658
+    second: plate_prompt_11
+  - first:
+      213: 6567199145994399301
+    second: plate_prompt_12
+  - first:
+      213: 8213842942456372525
+    second: plate_prompt_13
+  - first:
+      213: -4277142365420983222
+    second: plate_prompt_14
+  - first:
+      213: 5525723448248808040
+    second: plate_prompt_15
+  - first:
+      213: 7100914853125180440
+    second: plate_prompt_16
+  - first:
+      213: 8818995643941183872
+    second: plate_prompt_17
+  - first:
+      213: 2141671641335690846
+    second: plate_prompt_18
+  - first:
+      213: -1860651878053373063
+    second: plate_prompt_19
+  - first:
+      213: -909080043213072364
+    second: plate_prompt_20
+  - first:
+      213: 823413377004956548
+    second: plate_prompt_21
+  - first:
+      213: 2240906372197371614
+    second: plate_prompt_22
+  - first:
+      213: 1804847188973082665
+    second: plate_prompt_23
+  - first:
+      213: -4897479160232107132
+    second: plate_prompt_24
+  - first:
+      213: 7752595775404927942
+    second: plate_prompt_25
+  - first:
+      213: 618462677604241580
+    second: plate_prompt_26
+  - first:
+      213: 6700915592520724317
+    second: plate_prompt_27
+  - first:
+      213: -7537693015180427616
+    second: plate_prompt_28
+  - first:
+      213: 4507990333555014884
+    second: plate_prompt_29
+  - first:
+      213: 6643241292462897731
+    second: plate_prompt_30
+  - first:
+      213: -1134005465606079688
+    second: plate_prompt_31
+  - first:
+      213: 8032178180250015034
+    second: plate_prompt_32
+  - first:
+      213: 5163260277601856424
+    second: plate_prompt_33
+  - first:
+      213: 1549528003135417360
+    second: plate_prompt_34
+  - first:
+      213: -6441558381326055299
+    second: plate_prompt_35
+  - first:
+      213: 7371382472843168487
+    second: plate_prompt_36
+  - first:
+      213: 777475470961937168
+    second: plate_prompt_37
+  - first:
+      213: 8946920290059026691
+    second: plate_prompt_38
+  - first:
+      213: -979673803916602979
+    second: plate_prompt_39
+  - first:
+      213: -7174411493736326502
+    second: plate_prompt_40
+  - first:
+      213: 5113917746348420741
+    second: plate_prompt_41
+  - first:
+      213: -578449298387755040
+    second: plate_prompt_42
+  - first:
+      213: 4584644347709264088
+    second: plate_prompt_43
+  - first:
+      213: -534119272272457293
+    second: plate_prompt_44
+  - first:
+      213: -4177731661917281565
+    second: plate_prompt_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: plate_prompt_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2155
+        height: 699
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c1ebb23fc72426f0800000000000000
+      internalID: -710399070354808378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_prompt_1
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 673
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48f2e10b1d63a62b0800000000000000
+      internalID: -5590595713196216444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_prompt_2
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 673
+        width: 65
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6131f5b646ed0100800000000000000
+      internalID: 75969960109748590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_prompt_3
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 673
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e54992af365b3db00800000000000000
+      internalID: 852224195506574430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_prompt_4
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 670
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e360e57df258c180800000000000000
+      internalID: -9094928198916873248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_prompt_5
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 626
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84efd807c6e9e3270800000000000000
+      internalID: 8232191357461855816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_prompt_6
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 37
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e97f0ae42bc69eba0800000000000000
+      internalID: -6059192310571141218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_prompt_7
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 49
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e12f32815c1c33700800000000000000
+      internalID: 518971434335466014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_prompt_8
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 47
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29fac32fcadf41580800000000000000
+      internalID: -8857175647890657390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_prompt_9
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 51
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc09543d2a0528d40800000000000000
+      internalID: 5585115148152312015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_prompt_10
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 45
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8a614750db0f37c0800000000000000
+      internalID: -4089536947184113013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_prompt_11
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 31
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6402774c128318fd0800000000000000
+      internalID: -2341528613574729658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_prompt_12
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 40
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54eae3a24d0632b50800000000000000
+      internalID: 6567199145994399301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_prompt_13
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 41
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2d16f923ae6df170800000000000000
+      internalID: 8213842942456372525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_prompt_14
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 43
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4cee4f0ea984a4c0800000000000000
+      internalID: -4277142365420983222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_prompt_15
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 43
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 862baeb13305fac40800000000000000
+      internalID: 5525723448248808040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_prompt_16
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 53
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81c42d8cf648b8260800000000000000
+      internalID: 7100914853125180440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_prompt_17
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 53
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 081e4d820dd536a70800000000000000
+      internalID: 8818995643941183872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_prompt_18
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 15
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e56775fb20fb8bd10800000000000000
+      internalID: 2141671641335690846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_prompt_19
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 11
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97b17fd99f2ad26e0800000000000000
+      internalID: -1860651878053373063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_prompt_20
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 27
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41853e7648c4263f0800000000000000
+      internalID: -909080043213072364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_prompt_21
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 25
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48b6faf8a1a5d6b00800000000000000
+      internalID: 823413377004956548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_prompt_22
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 19
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edecbb1097c491f10800000000000000
+      internalID: 2240906372197371614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_prompt_23
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 29
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9285a94b4fa1c0910800000000000000
+      internalID: 1804847188973082665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_prompt_24
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 17
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 483ac77d6a8a80cb0800000000000000
+      internalID: -4897479160232107132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_prompt_25
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 19
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cb643068c0c69b60800000000000000
+      internalID: 7752595775404927942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_prompt_26
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 27
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca0107d4788359800800000000000000
+      internalID: 618462677604241580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_prompt_27
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 31
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5fe21a7a3f6efc50800000000000000
+      internalID: 6700915592520724317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_prompt_28
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 31
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ae3a3c932cb46790800000000000000
+      internalID: -7537693015180427616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_prompt_29
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 28
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ecf072f2599f8e30800000000000000
+      internalID: 4507990333555014884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_prompt_30
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 31
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34a357212c8813c50800000000000000
+      internalID: 6643241292462897731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_prompt_31
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 25
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83bb23989043340f0800000000000000
+      internalID: -1134005465606079688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_prompt_32
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 29
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a351276af77087f60800000000000000
+      internalID: 8032178180250015034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_prompt_33
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 29
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8abe759cdd597a740800000000000000
+      internalID: 5163260277601856424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_prompt_34
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 21
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c28645287018510800000000000000
+      internalID: 1549528003135417360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_prompt_35
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 7
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d78ce11f7ccfa96a0800000000000000
+      internalID: -6441558381326055299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_prompt_36
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 17
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ea8b55cd496c4660800000000000000
+      internalID: 7371382472843168487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_prompt_37
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 13
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01b044452d52aca00800000000000000
+      internalID: 777475470961937168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_prompt_38
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 15
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30104bad998d92c70800000000000000
+      internalID: 8946920290059026691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_prompt_39
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 15
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d919bc9addf7762f0800000000000000
+      internalID: -979673803916602979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_prompt_40
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 8
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9add5312ce5f6c90800000000000000
+      internalID: -7174411493736326502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_prompt_41
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 15
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ee9a9781948f640800000000000000
+      internalID: 5113917746348420741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_prompt_42
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 18
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef16098d6fe8f7f0800000000000000
+      internalID: -578449298387755040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_prompt_43
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 13
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d096b66ebdef9f30800000000000000
+      internalID: 4584644347709264088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_prompt_44
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 13
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b1928c0a5d6698f0800000000000000
+      internalID: -534119272272457293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_prompt_45
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 7
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e2a4842037b506c0800000000000000
+      internalID: -4177731661917281565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      plate_prompt_0: -710399070354808378
+      plate_prompt_1: -5590595713196216444
+      plate_prompt_10: -4089536947184113013
+      plate_prompt_11: -2341528613574729658
+      plate_prompt_12: 6567199145994399301
+      plate_prompt_13: 8213842942456372525
+      plate_prompt_14: -4277142365420983222
+      plate_prompt_15: 5525723448248808040
+      plate_prompt_16: 7100914853125180440
+      plate_prompt_17: 8818995643941183872
+      plate_prompt_18: 2141671641335690846
+      plate_prompt_19: -1860651878053373063
+      plate_prompt_2: 75969960109748590
+      plate_prompt_20: -909080043213072364
+      plate_prompt_21: 823413377004956548
+      plate_prompt_22: 2240906372197371614
+      plate_prompt_23: 1804847188973082665
+      plate_prompt_24: -4897479160232107132
+      plate_prompt_25: 7752595775404927942
+      plate_prompt_26: 618462677604241580
+      plate_prompt_27: 6700915592520724317
+      plate_prompt_28: -7537693015180427616
+      plate_prompt_29: 4507990333555014884
+      plate_prompt_3: 852224195506574430
+      plate_prompt_30: 6643241292462897731
+      plate_prompt_31: -1134005465606079688
+      plate_prompt_32: 8032178180250015034
+      plate_prompt_33: 5163260277601856424
+      plate_prompt_34: 1549528003135417360
+      plate_prompt_35: -6441558381326055299
+      plate_prompt_36: 7371382472843168487
+      plate_prompt_37: 777475470961937168
+      plate_prompt_38: 8946920290059026691
+      plate_prompt_39: -979673803916602979
+      plate_prompt_4: -9094928198916873248
+      plate_prompt_40: -7174411493736326502
+      plate_prompt_41: 5113917746348420741
+      plate_prompt_42: -578449298387755040
+      plate_prompt_43: 4584644347709264088
+      plate_prompt_44: -534119272272457293
+      plate_prompt_45: -4177731661917281565
+      plate_prompt_5: 8232191357461855816
+      plate_prompt_6: -6059192310571141218
+      plate_prompt_7: 518971434335466014
+      plate_prompt_8: -8857175647890657390
+      plate_prompt_9: 5585115148152312015
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

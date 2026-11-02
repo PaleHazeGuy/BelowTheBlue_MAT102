@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 2904d9271f12a8d4d960fd5dbe07662b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5254610308920697947
+    second: plate_stat_0
+  - first:
+      213: 6264421186435482852
+    second: plate_stat_1
+  - first:
+      213: 8655653629033292650
+    second: plate_stat_2
+  - first:
+      213: -6297584904197159230
+    second: plate_stat_3
+  - first:
+      213: 7123543566293475394
+    second: plate_stat_4
+  - first:
+      213: 9112394185058586888
+    second: plate_stat_5
+  - first:
+      213: -708490822309801694
+    second: plate_stat_6
+  - first:
+      213: 1666078144517898336
+    second: plate_stat_7
+  - first:
+      213: 1376517152012055923
+    second: plate_stat_8
+  - first:
+      213: -5558160684440005801
+    second: plate_stat_9
+  - first:
+      213: 1724866207586678109
+    second: plate_stat_10
+  - first:
+      213: 2882889286918468358
+    second: plate_stat_11
+  - first:
+      213: -6093449112784479462
+    second: plate_stat_12
+  - first:
+      213: -7336702319084757593
+    second: plate_stat_13
+  - first:
+      213: -3665130151411468887
+    second: plate_stat_14
+  - first:
+      213: 5699723339655173779
+    second: plate_stat_15
+  - first:
+      213: 120428156891436823
+    second: plate_stat_16
+  - first:
+      213: -4321425907605180138
+    second: plate_stat_17
+  - first:
+      213: 5536927519831510671
+    second: plate_stat_18
+  - first:
+      213: -121856523158844978
+    second: plate_stat_19
+  - first:
+      213: -4393039048409846174
+    second: plate_stat_20
+  - first:
+      213: -7338005976226439252
+    second: plate_stat_21
+  - first:
+      213: 4579461895188622944
+    second: plate_stat_22
+  - first:
+      213: -2607743070599994664
+    second: plate_stat_23
+  - first:
+      213: -3337124548580549949
+    second: plate_stat_24
+  - first:
+      213: 6762705058204802399
+    second: plate_stat_25
+  - first:
+      213: 3804894263780844179
+    second: plate_stat_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 150, y: 150, z: 150, w: 150}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: plate_stat_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1708
+        height: 854
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b54e2506c302ce840800000000000000
+      internalID: 5254610308920697947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_stat_1
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 810
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e40be4f0e1bfe650800000000000000
+      internalID: 6264421186435482852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_stat_2
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 807
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a63a951bd1f0f1870800000000000000
+      internalID: 8655653629033292650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_stat_3
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 807
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c6477a45eb7a98a0800000000000000
+      internalID: -6297584904197159230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_stat_4
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 791
+        width: 45
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24021f2a129ebd260800000000000000
+      internalID: 7123543566293475394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_stat_5
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 778
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80190c55b3ab57e70800000000000000
+      internalID: 9112394185058586888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_stat_6
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 781
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2219991d95fea26f0800000000000000
+      internalID: -708490822309801694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_stat_7
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 48
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0600804ce391f1710800000000000000
+      internalID: 1666078144517898336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_stat_8
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 49
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37539e08e0f5a1310800000000000000
+      internalID: 1376517152012055923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_stat_9
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 31
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 753596f4e427dd2b0800000000000000
+      internalID: -5558160684440005801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_stat_10
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 49
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5577445da4ffe710800000000000000
+      internalID: 1724866207586678109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_stat_11
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 37
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 603fd814884120820800000000000000
+      internalID: 2882889286918468358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_stat_12
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 33
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1bdf8ff058bf6ba0800000000000000
+      internalID: -6093449112784479462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_stat_13
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 17
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ad1b20cc1cce2a90800000000000000
+      internalID: -7336702319084757593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_stat_14
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 19
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a5bb85cb87d22dc0800000000000000
+      internalID: -3665130151411468887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_stat_15
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 20
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3965622dd2c791f40800000000000000
+      internalID: 5699723339655173779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_stat_16
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 14
+        width: 27
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 717187845c8dba100800000000000000
+      internalID: 120428156891436823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_stat_17
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 23
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 611f50e68063704c0800000000000000
+      internalID: -4321425907605180138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_stat_18
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 19
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8e44ae4e3e17dc40800000000000000
+      internalID: 5536927519831510671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_stat_19
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 19
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec98d8743241f4ef0800000000000000
+      internalID: -121856523158844978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_stat_20
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 23
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26e6c13c24ac803c0800000000000000
+      internalID: -4393039048409846174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_stat_21
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 17
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf545b617a2a2a90800000000000000
+      internalID: -7338005976226439252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_stat_22
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 15
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ea725a4548d8f30800000000000000
+      internalID: 4579461895188622944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_stat_23
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 17
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d2a6636e7f6fcbd0800000000000000
+      internalID: -2607743070599994664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_stat_24
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 4
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cade9667e620b1d0800000000000000
+      internalID: -3337124548580549949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_stat_25
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 9
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5dd80b8b64f9dd50800000000000000
+      internalID: 6762705058204802399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate_stat_26
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 3
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39224987c23bdc430800000000000000
+      internalID: 3804894263780844179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      plate_stat_0: 5254610308920697947
+      plate_stat_1: 6264421186435482852
+      plate_stat_10: 1724866207586678109
+      plate_stat_11: 2882889286918468358
+      plate_stat_12: -6093449112784479462
+      plate_stat_13: -7336702319084757593
+      plate_stat_14: -3665130151411468887
+      plate_stat_15: 5699723339655173779
+      plate_stat_16: 120428156891436823
+      plate_stat_17: -4321425907605180138
+      plate_stat_18: 5536927519831510671
+      plate_stat_19: -121856523158844978
+      plate_stat_2: 8655653629033292650
+      plate_stat_20: -4393039048409846174
+      plate_stat_21: -7338005976226439252
+      plate_stat_22: 4579461895188622944
+      plate_stat_23: -2607743070599994664
+      plate_stat_24: -3337124548580549949
+      plate_stat_25: 6762705058204802399
+      plate_stat_26: 3804894263780844179
+      plate_stat_3: -6297584904197159230
+      plate_stat_4: 7123543566293475394
+      plate_stat_5: 9112394185058586888
+      plate_stat_6: -708490822309801694
+      plate_stat_7: 1666078144517898336
+      plate_stat_8: 1376517152012055923
+      plate_stat_9: -5558160684440005801
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
