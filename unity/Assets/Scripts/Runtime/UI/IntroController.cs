@@ -9,6 +9,12 @@ namespace BelowTheBlue.UI
     {
         private static bool seen;
 
+        [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
+        private static void ResetSeen()
+        {
+            seen = false;
+        }
+
         [SerializeField] private GameObject introRoot;
         [SerializeField] private Button startButton;
         [SerializeField] private PlayerInputReader input;
