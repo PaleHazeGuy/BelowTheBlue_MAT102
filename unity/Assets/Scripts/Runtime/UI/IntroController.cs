@@ -16,15 +16,16 @@ namespace BelowTheBlue.UI
         }
 
         [SerializeField] private GameObject introRoot;
-        [SerializeField] private Button startButton;
+        [SerializeField] private GameObject[] pages;
         [SerializeField] private PlayerInputReader input;
         [SerializeField] private bool showEveryRun;
 
+        private int pageIndex;
         private bool open;
 
         private void Start()
         {
-            if (introRoot == null || (seen && !showEveryRun))
+            if (introRoot == null || pages == null || pages.Length == 0 || (seen && !showEveryRun))
             {
                 if (introRoot != null)
                 {
@@ -37,32 +38,58 @@ namespace BelowTheBlue.UI
             open = true;
             Time.timeScale = 0f;
             introRoot.SetActive(true);
-            if (startButton != null)
+            foreach (GameObject page in pages)
             {
-                startButton.onClick.AddListener(Begin);
+                Button button = page.GetComponentInChildren<Button>(true);
+                if (button != null)
+                {
+                    button.onClick.AddListener(Advance);
+                }
             }
+
+            ShowPage(0);
         }
 
         private void Update()
         {
             if (open && input != null && input.InteractPressedThisFrame)
             {
-                Begin();
+                Advance();
             }
         }
 
         private void OnDestroy()
         {
-            if (startButton != null)
+            if (pages == null)
             {
-                startButton.onClick.RemoveListener(Begin);
+                return;
+            }
+
+            foreach (GameObject page in pages)
+            {
+                if (page == null)
+                {
+                    continue;
+                }
+
+                Button button = page.GetComponentInChildren<Button>(true);
+                if (button != null)
+                {
+                    button.onClick.RemoveListener(Advance);
+                }
             }
         }
 
-        private void Begin()
+        private void Advance()
         {
             if (!open)
             {
+                return;
+            }
+
+            if (pageIndex + 1 < pages.Length)
+            {
+                ShowPage(pageIndex + 1);
                 return;
             }
 
@@ -70,6 +97,15 @@ namespace BelowTheBlue.UI
             seen = true;
             Time.timeScale = 1f;
             introRoot.SetActive(false);
+        }
+
+        private void ShowPage(int index)
+        {
+            pageIndex = index;
+            for (int i = 0; i < pages.Length; i++)
+            {
+                pages[i].SetActive(i == index);
+            }
         }
     }
 }
