@@ -11,11 +11,15 @@ namespace BelowTheBlue.Player
         [SerializeField, Range(0f, 90f)] private float maxTiltAngle = 90f;
         [SerializeField, Min(0f)] private float turnSpeed = 180f;
         [SerializeField, Min(0f)] private float knockbackDecay = 20f;
+        [SerializeField, Range(0f, 1f)] private float slowedSpeedFactor = 0.25f;
+        [SerializeField, Min(0.05f)] private float speedRecoverSeconds = 1.5f;
 
         private Rigidbody2D body;
         private SpriteRenderer targetRenderer;
         private int lastHorizontalDirection = -1;
         private Vector2 knockbackVelocity;
+        private float recoverElapsed;
+        private bool recovering;
 
         private void Awake()
         {
@@ -28,7 +32,7 @@ namespace BelowTheBlue.Player
         private void FixedUpdate()
         {
             Vector2 move = input == null ? Vector2.zero : input.Current.Move;
-            body.linearVelocity = move * moveSpeed + knockbackVelocity;
+            body.linearVelocity = move * moveSpeed * CurrentSpeedScale() + knockbackVelocity;
             knockbackVelocity = Vector2.MoveTowards(
                 knockbackVelocity,
                 Vector2.zero,
@@ -72,6 +76,26 @@ namespace BelowTheBlue.Player
         public void ApplyKnockback(Vector2 velocity)
         {
             knockbackVelocity = velocity;
+            recoverElapsed = 0f;
+            recovering = true;
+        }
+
+        private float CurrentSpeedScale()
+        {
+            if (!recovering)
+            {
+                return 1f;
+            }
+
+            recoverElapsed += Time.fixedDeltaTime;
+            float t = Mathf.Clamp01(recoverElapsed / speedRecoverSeconds);
+            if (t >= 1f)
+            {
+                recovering = false;
+                return 1f;
+            }
+
+            return Mathf.Lerp(slowedSpeedFactor, 1f, t * t * (3f - 2f * t));
         }
 
         private void OnDisable()
