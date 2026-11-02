@@ -13,7 +13,7 @@ namespace BelowTheBlue.UI
         [SerializeField] private Health health;
         [SerializeField] private OxygenTimer oxygen;
         [SerializeField] private PlayerCollector collector;
-        [SerializeField, Min(1)] private int samplesRequired = 3;
+        [SerializeField] private RunState runState;
 
         [Header("Oxygen")]
         [SerializeField] private Text oxygenValue;
@@ -45,7 +45,6 @@ namespace BelowTheBlue.UI
 
         private Image[] oxygenLamps;
         private Image[] healthLamps;
-        private int samplesCollected;
         private int lastOxygenSeconds = -1;
 
         private void Awake()
@@ -72,7 +71,10 @@ namespace BelowTheBlue.UI
                 collector.TargetChanged += OnTargetChanged;
             }
 
-            Collectible.Collected += OnCollected;
+            if (runState != null)
+            {
+                runState.SamplesChanged += OnSamplesChanged;
+            }
         }
 
         private void OnDisable()
@@ -93,7 +95,10 @@ namespace BelowTheBlue.UI
                 collector.TargetChanged -= OnTargetChanged;
             }
 
-            Collectible.Collected -= OnCollected;
+            if (runState != null)
+            {
+                runState.SamplesChanged -= OnSamplesChanged;
+            }
         }
 
         private void Start()
@@ -148,9 +153,8 @@ namespace BelowTheBlue.UI
             SetLamps(healthLamps, current, healthLitColor, healthUnlitColor);
         }
 
-        private void OnCollected(Collectible collectible)
+        private void OnSamplesChanged(int collected, int required)
         {
-            samplesCollected++;
             RefreshSamples();
         }
 
@@ -170,9 +174,9 @@ namespace BelowTheBlue.UI
 
         private void RefreshSamples()
         {
-            if (samplesValue != null)
+            if (samplesValue != null && runState != null)
             {
-                samplesValue.text = $"{samplesCollected} / {samplesRequired}";
+                samplesValue.text = $"{runState.SamplesCollected} / {runState.SamplesRequired}";
             }
         }
 

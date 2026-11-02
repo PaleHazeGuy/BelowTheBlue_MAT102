@@ -5,6 +5,78 @@ TextureImporter:
   - first:
       213: 2476637373895879200
     second: Outro_0
+  - first:
+      213: -8174693920626233164
+    second: Outro_1
+  - first:
+      213: 3615760060591604663
+    second: Outro_2
+  - first:
+      213: -7198055256552188489
+    second: Outro_3
+  - first:
+      213: 3180869591413341832
+    second: Outro_4
+  - first:
+      213: 5882435479061397915
+    second: Outro_5
+  - first:
+      213: -4379064573461730270
+    second: Outro_6
+  - first:
+      213: 8686117873361719426
+    second: Outro_7
+  - first:
+      213: 7368145631439492580
+    second: Outro_8
+  - first:
+      213: 6297166224199715412
+    second: Outro_9
+  - first:
+      213: 1489946849244999283
+    second: Outro_10
+  - first:
+      213: -7080741786367963543
+    second: Outro_11
+  - first:
+      213: 4695969143962513742
+    second: Outro_12
+  - first:
+      213: 5887534106241124764
+    second: Outro_13
+  - first:
+      213: 7529496379033892939
+    second: Outro_14
+  - first:
+      213: 629227282656782829
+    second: Outro_15
+  - first:
+      213: 8444278493061495255
+    second: Outro_16
+  - first:
+      213: 8810754909895062399
+    second: Outro_17
+  - first:
+      213: -8355100880942901908
+    second: Outro_18
+  - first:
+      213: 5564177170789395034
+    second: Outro_19
+  - first:
+      213: -4392489254223612379
+    second: Outro_20
+  - first:
+      213: -5559149235299753972
+    second: Outro_21
+  - first:
+      213: -806091306159589369
+    second: Outro_22
+  - first:
+      213: -4170147362693713050
+    second: Outro_23
+  - first:
+      213: 6287291813736795347
+    second: Outro_24
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -72,7 +144,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -104,11 +176,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 9000
-        height: 6000
+        y: 4800
+        width: 1800
+        height: 1200
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -117,6 +189,534 @@ TextureImporter:
       bones: []
       spriteID: 02a258cd198ce5220800000000000000
       internalID: 2476637373895879200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outro_1
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 4800
+        width: 1800
+        height: 1200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b03789c037ad8e80800000000000000
+      internalID: -8174693920626233164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outro_2
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 4800
+        width: 1800
+        height: 1200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b38b943e92cd2230800000000000000
+      internalID: 3615760060591604663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outro_3
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 4800
+        width: 1800
+        height: 1200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b5d29f81ee5b1c90800000000000000
+      internalID: -7198055256552188489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outro_4
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 4800
+        width: 1800
+        height: 1200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88eb8095a08b42c20800000000000000
+      internalID: 3180869591413341832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outro_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3600
+        width: 1800
+        height: 1200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b910c97d6eb92a150800000000000000
+      internalID: 5882435479061397915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outro_6
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3600
+        width: 1800
+        height: 1200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22ce052c8ff6a33c0800000000000000
+      internalID: -4379064573461730270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outro_7
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3600
+        width: 1800
+        height: 1200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28095ee4f2a4b8870800000000000000
+      internalID: 8686117873361719426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outro_8
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 3600
+        width: 1800
+        height: 1200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e51c47e969e04660800000000000000
+      internalID: 7368145631439492580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outro_9
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 3600
+        width: 1800
+        height: 1200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a030d2157046750800000000000000
+      internalID: 6297166224199715412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outro_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 1800
+        height: 1200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37ee57be3ca5da410800000000000000
+      internalID: 1489946849244999283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outro_11
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2400
+        width: 1800
+        height: 1200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96ec5455cd62cbd90800000000000000
+      internalID: -7080741786367963543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outro_12
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2400
+        width: 1800
+        height: 1200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e41b41e5e0f6b2140800000000000000
+      internalID: 4695969143962513742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outro_13
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 2400
+        width: 1800
+        height: 1200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c99cf7d7319b4b150800000000000000
+      internalID: 5887534106241124764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outro_14
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 2400
+        width: 1800
+        height: 1200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b48b7e150152e7860800000000000000
+      internalID: 7529496379033892939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outro_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 1800
+        height: 1200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de9edb931e67bb800800000000000000
+      internalID: 629227282656782829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outro_16
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1200
+        width: 1800
+        height: 1200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d9b66bbc8a103570800000000000000
+      internalID: 8444278493061495255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outro_17
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1200
+        width: 1800
+        height: 1200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f73f25fb8e6164a70800000000000000
+      internalID: 8810754909895062399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outro_18
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 1200
+        width: 1800
+        height: 1200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6558d81408bc0c80800000000000000
+      internalID: -8355100880942901908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outro_19
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 1200
+        width: 1800
+        height: 1200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a6d3418ade73d40800000000000000
+      internalID: 5564177170789395034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outro_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1800
+        height: 1200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 526f742bb4eba03c0800000000000000
+      internalID: -4392489254223612379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outro_21
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 1800
+        height: 1200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c00e290693fe9d2b0800000000000000
+      internalID: -5559149235299753972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outro_22
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 0
+        width: 1800
+        height: 1200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 708b3d75a3030d4f0800000000000000
+      internalID: -806091306159589369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outro_23
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 0
+        width: 1800
+        height: 1200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 663fb996119a026c0800000000000000
+      internalID: -4170147362693713050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outro_24
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 0
+        width: 1800
+        height: 1200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dcc005d792f04750800000000000000
+      internalID: 6287291813736795347
       vertices: []
       indices: 
       edges: []
@@ -136,6 +736,30 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       Outro_0: 2476637373895879200
+      Outro_1: -8174693920626233164
+      Outro_10: 1489946849244999283
+      Outro_11: -7080741786367963543
+      Outro_12: 4695969143962513742
+      Outro_13: 5887534106241124764
+      Outro_14: 7529496379033892939
+      Outro_15: 629227282656782829
+      Outro_16: 8444278493061495255
+      Outro_17: 8810754909895062399
+      Outro_18: -8355100880942901908
+      Outro_19: 5564177170789395034
+      Outro_2: 3615760060591604663
+      Outro_20: -4392489254223612379
+      Outro_21: -5559149235299753972
+      Outro_22: -806091306159589369
+      Outro_23: -4170147362693713050
+      Outro_24: 6287291813736795347
+      Outro_3: -7198055256552188489
+      Outro_4: 3180869591413341832
+      Outro_5: 5882435479061397915
+      Outro_6: -4379064573461730270
+      Outro_7: 8686117873361719426
+      Outro_8: 7368145631439492580
+      Outro_9: 6297166224199715412
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

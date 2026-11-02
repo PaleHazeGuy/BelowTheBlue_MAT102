@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using BelowTheBlue.Core;
 using UnityEngine;
@@ -37,6 +38,8 @@ namespace BelowTheBlue.Interaction
         [SerializeField] private int carriedItemOrder = 3;
 
         public bool IsBusy { get; private set; }
+
+        public event Action Grabbed;
 
         private Coroutine routine;
 
@@ -124,6 +127,7 @@ namespace BelowTheBlue.Interaction
             Aim(grabPoint, 1f, out _, out _);
 
             claw.sprite = clawClosed;
+            Grabbed?.Invoke();
             if (grabPauseSeconds > 0f)
             {
                 float pause = 0f;

@@ -8,7 +8,7 @@ namespace BelowTheBlue.Player
     {
         [SerializeField] private PlayerInputReader input;
         [SerializeField, Min(0f)] private float moveSpeed = 4f;
-        [SerializeField, Range(0f, 90f)] private float maxTiltAngle = 30f;
+        [SerializeField, Range(0f, 90f)] private float maxTiltAngle = 90f;
         [SerializeField, Min(0f)] private float turnSpeed = 180f;
         [SerializeField, Min(0f)] private float knockbackDecay = 20f;
 
@@ -53,19 +53,19 @@ namespace BelowTheBlue.Player
                 }
 
                 float facingSign = lastHorizontalDirection > 0 ? 1f : -1f;
-                float targetAngle = move.y * maxTiltAngle * facingSign;
-
+                float currentAngle = body.rotation;
                 if (lastHorizontalDirection != previousHorizontalDirection)
                 {
-                    body.SetRotation(targetAngle);
+                    currentAngle = -currentAngle;
                 }
-                else
-                {
-                    body.SetRotation(Mathf.MoveTowardsAngle(
-                        body.rotation,
-                        targetAngle,
-                        turnSpeed * Time.fixedDeltaTime));
-                }
+
+                float pitch = Mathf.Abs(move.y) > 0.1f
+                    ? Mathf.Atan2(move.y, Mathf.Abs(move.x)) * Mathf.Rad2Deg
+                    : 0f;
+                float targetAngle = Mathf.Clamp(pitch, -maxTiltAngle, maxTiltAngle) * facingSign;
+                currentAngle = Mathf.MoveTowardsAngle(currentAngle, targetAngle, turnSpeed * Time.fixedDeltaTime);
+
+                body.SetRotation(currentAngle);
             }
         }
 

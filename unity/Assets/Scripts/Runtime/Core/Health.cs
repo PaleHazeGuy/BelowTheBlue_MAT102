@@ -17,6 +17,7 @@ namespace BelowTheBlue.Core
         public int Maximum => maximum;
         public int Current { get; private set; }
         public bool IsAlive => Current > 0;
+        public bool WasSunk { get; private set; }
 
         public event Action<int, int> Changed;
         public event Action Died;
@@ -91,6 +92,7 @@ namespace BelowTheBlue.Core
         {
             if (IsAlive)
             {
+                WasSunk = true;
                 TakeDamage(Current);
                 var ending = GetComponent<BelowTheBlue.World.SinkingEnding>();
                 if (ending != null)
