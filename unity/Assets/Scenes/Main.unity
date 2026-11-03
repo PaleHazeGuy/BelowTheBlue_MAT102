@@ -862,7 +862,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: -4
   m_MaskInteraction: 0
   m_Sprite: {fileID: -3645072480583251378, guid: 22f9ff3af0a885d6382f97ea8328c4cd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1881,7 +1881,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: -4
   m_MaskInteraction: 0
   m_Sprite: {fileID: 2265772221871457914, guid: fe9389cba38b8ab80b71f5b365295ded, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -12596,6 +12596,7 @@ GameObject:
   m_Component:
   - component: {fileID: 140299518}
   - component: {fileID: 140299519}
+  - component: {fileID: 140299520}
   m_Layer: 0
   m_Name: Seaweed1 Prop 11
   m_TagString: Untagged
@@ -12665,10 +12666,10 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: 2265772221871457914, guid: fe9389cba38b8ab80b71f5b365295ded, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.78, g: 0.9, b: 0.85, a: 1}
   m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
@@ -12678,6 +12679,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!114 &140299520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 140299517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 615b8b829326574b4808361cd952d1c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BelowTheBlue.Runtime::BelowTheBlue.World.FadeOverPlayer
+  player: {fileID: 1083591336}
+  fadedAlpha: 0.4
+  fadeSpeed: 6
+  overlapWidthScale: 0.7
 --- !u!1 &179102986
 GameObject:
   m_ObjectHideFlags: 0
@@ -14892,7 +14909,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingOrder: -4
   m_MaskInteraction: 0
   m_Sprite: {fileID: 2265772221871457914, guid: fe9389cba38b8ab80b71f5b365295ded, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -15989,7 +16006,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: -4
   m_MaskInteraction: 0
   m_Sprite: {fileID: -300394245976103344, guid: c101513838af4ba2cb8f83b41aeedd3f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -16699,7 +16716,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingOrder: -4
   m_MaskInteraction: 0
   m_Sprite: {fileID: 2265772221871457914, guid: fe9389cba38b8ab80b71f5b365295ded, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -17241,7 +17258,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: -4
   m_MaskInteraction: 0
   m_Sprite: {fileID: 2265772221871457914, guid: fe9389cba38b8ab80b71f5b365295ded, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -18242,7 +18259,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: -4
   m_MaskInteraction: 0
   m_Sprite: {fileID: -300394245976103344, guid: c101513838af4ba2cb8f83b41aeedd3f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -25911,7 +25928,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: -4
   m_MaskInteraction: 0
   m_Sprite: {fileID: 2265772221871457914, guid: fe9389cba38b8ab80b71f5b365295ded, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -29069,6 +29086,7 @@ GameObject:
   m_Component:
   - component: {fileID: 768321955}
   - component: {fileID: 768321956}
+  - component: {fileID: 768321957}
   m_Layer: 0
   m_Name: Seaweed2 Prop 23
   m_TagString: Untagged
@@ -29138,10 +29156,10 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -8
+  m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: -3645072480583251378, guid: 22f9ff3af0a885d6382f97ea8328c4cd, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.78, g: 0.9, b: 0.85, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -29151,6 +29169,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!114 &768321957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 768321954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 615b8b829326574b4808361cd952d1c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BelowTheBlue.Runtime::BelowTheBlue.World.FadeOverPlayer
+  player: {fileID: 1083591336}
+  fadedAlpha: 0.4
+  fadeSpeed: 6
+  overlapWidthScale: 0.7
 --- !u!1 &777007425
 GameObject:
   m_ObjectHideFlags: 0
@@ -29278,7 +29312,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.04, g: 0.01, b: 0.02, a: 0.9}
+  m_Color: {r: 0.04, g: 0.01, b: 0.02, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -31527,7 +31561,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: -4
   m_MaskInteraction: 0
   m_Sprite: {fileID: 2265772221871457914, guid: fe9389cba38b8ab80b71f5b365295ded, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -41609,7 +41643,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: -4
   m_MaskInteraction: 0
   m_Sprite: {fileID: -3645072480583251378, guid: 22f9ff3af0a885d6382f97ea8328c4cd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -44444,6 +44478,7 @@ MonoBehaviour:
   lowOxygenColor: {r: 1, g: 0.1, b: 0.05, a: 0.22}
   warningSeconds: 20
   flashSeconds: 0.35
+  fireSeconds: 7
 --- !u!1 &1075997120
 GameObject:
   m_ObjectHideFlags: 0
@@ -45234,6 +45269,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1081997856}
   - component: {fileID: 1081997857}
+  - component: {fileID: 1081997858}
   m_Layer: 0
   m_Name: Seaweed2 Prop 24
   m_TagString: Untagged
@@ -45303,10 +45339,10 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: -3645072480583251378, guid: 22f9ff3af0a885d6382f97ea8328c4cd, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.78, g: 0.9, b: 0.85, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -45316,9 +45352,30 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!114 &1081997858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081997855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 615b8b829326574b4808361cd952d1c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BelowTheBlue.Runtime::BelowTheBlue.World.FadeOverPlayer
+  player: {fileID: 1083591336}
+  fadedAlpha: 0.4
+  fadeSpeed: 6
+  overlapWidthScale: 0.7
 --- !u!4 &1083591334 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1290107197912067235, guid: b7539160e8c123c3cb6d5a4f7f35e7f4, type: 3}
+  m_PrefabInstance: {fileID: 930402166808632691}
+  m_PrefabAsset: {fileID: 0}
+--- !u!60 &1083591336 stripped
+PolygonCollider2D:
+  m_CorrespondingSourceObject: {fileID: 2730863410207740900, guid: b7539160e8c123c3cb6d5a4f7f35e7f4, type: 3}
   m_PrefabInstance: {fileID: 930402166808632691}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1083937900
@@ -53371,6 +53428,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1215588784}
   - component: {fileID: 1215588785}
+  - component: {fileID: 1215588786}
   m_Layer: 0
   m_Name: Seaweed1 Prop 25
   m_TagString: Untagged
@@ -53440,10 +53498,10 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: 2265772221871457914, guid: fe9389cba38b8ab80b71f5b365295ded, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.78, g: 0.9, b: 0.85, a: 1}
   m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
@@ -53453,6 +53511,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!114 &1215588786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215588783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 615b8b829326574b4808361cd952d1c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BelowTheBlue.Runtime::BelowTheBlue.World.FadeOverPlayer
+  player: {fileID: 1083591336}
+  fadedAlpha: 0.4
+  fadeSpeed: 6
+  overlapWidthScale: 0.7
 --- !u!1 &1217504962
 GameObject:
   m_ObjectHideFlags: 0
@@ -53532,7 +53606,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: -4
   m_MaskInteraction: 0
   m_Sprite: {fileID: 2265772221871457914, guid: fe9389cba38b8ab80b71f5b365295ded, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -53863,7 +53937,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: -4
   m_MaskInteraction: 0
   m_Sprite: {fileID: -9017408203400913417, guid: 1e625d7d7d9294e7689cf0ec06de402c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -55739,6 +55813,7 @@ MonoBehaviour:
   runState: {fileID: 1321868465}
   arm: {fileID: 69335300}
   ambient: {fileID: 8300000, guid: 96a3d5c001e47204189dfdfea77e81a3, type: 3}
+  music: {fileID: 8300000, guid: f231dedc77d83918fbc9abf7baddf269, type: 3}
   hit: {fileID: 8300000, guid: 3d8e25b0d718fc668986b1c3f01ac826, type: 3}
   grab: {fileID: 8300000, guid: 1ff7162fc58723ef793d01cd39f9532f, type: 3}
   collect: {fileID: 8300000, guid: 17fd55e07ae7aaf59bc77e91a9c8f625, type: 3}
@@ -55746,6 +55821,7 @@ MonoBehaviour:
   win: {fileID: 8300000, guid: 8f9713f9a938fc066874282267a53af5, type: 3}
   lose: {fileID: 8300000, guid: df9c40ef92b7ad4e284966308b9c5e40, type: 3}
   ambientVolume: 0.35
+  musicVolume: 0.3
   effectsVolume: 0.8
   warningSeconds: 20
 --- !u!1 &1327355153
@@ -60773,7 +60849,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: -4
   m_MaskInteraction: 0
   m_Sprite: {fileID: -300394245976103344, guid: c101513838af4ba2cb8f83b41aeedd3f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -61483,7 +61559,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: -4
   m_MaskInteraction: 0
   m_Sprite: {fileID: 2265772221871457914, guid: fe9389cba38b8ab80b71f5b365295ded, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -63806,7 +63882,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: -4
   m_MaskInteraction: 0
   m_Sprite: {fileID: -9017408203400913417, guid: 1e625d7d7d9294e7689cf0ec06de402c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -65906,7 +65982,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: -4
   m_MaskInteraction: 0
   m_Sprite: {fileID: -9017408203400913417, guid: 1e625d7d7d9294e7689cf0ec06de402c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -81445,6 +81521,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1851635768}
   - component: {fileID: 1851635769}
+  - component: {fileID: 1851635770}
   m_Layer: 0
   m_Name: Seaweed2 Prop 16
   m_TagString: Untagged
@@ -81514,10 +81591,10 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: -3645072480583251378, guid: 22f9ff3af0a885d6382f97ea8328c4cd, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.78, g: 0.9, b: 0.85, a: 1}
   m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
@@ -81527,6 +81604,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!114 &1851635770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851635767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 615b8b829326574b4808361cd952d1c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BelowTheBlue.Runtime::BelowTheBlue.World.FadeOverPlayer
+  player: {fileID: 1083591336}
+  fadedAlpha: 0.4
+  fadeSpeed: 6
+  overlapWidthScale: 0.7
 --- !u!1 &1851993703
 GameObject:
   m_ObjectHideFlags: 0
@@ -81537,6 +81630,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1851993704}
   - component: {fileID: 1851993705}
+  - component: {fileID: 1851993706}
   m_Layer: 0
   m_Name: Seaweed2 Prop 14
   m_TagString: Untagged
@@ -81606,10 +81700,10 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -8
+  m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: -3645072480583251378, guid: 22f9ff3af0a885d6382f97ea8328c4cd, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.78, g: 0.9, b: 0.85, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -81619,6 +81713,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!114 &1851993706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851993703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 615b8b829326574b4808361cd952d1c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BelowTheBlue.Runtime::BelowTheBlue.World.FadeOverPlayer
+  player: {fileID: 1083591336}
+  fadedAlpha: 0.4
+  fadeSpeed: 6
+  overlapWidthScale: 0.7
 --- !u!1 &1852382442
 GameObject:
   m_ObjectHideFlags: 0
@@ -81808,7 +81918,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: -4
   m_MaskInteraction: 0
   m_Sprite: {fileID: -300394245976103344, guid: c101513838af4ba2cb8f83b41aeedd3f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -82120,7 +82230,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: -4
   m_MaskInteraction: 0
   m_Sprite: {fileID: -9017408203400913417, guid: 1e625d7d7d9294e7689cf0ec06de402c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -105063,6 +105173,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2131494427}
   - component: {fileID: 2131494428}
+  - component: {fileID: 2131494429}
   m_Layer: 0
   m_Name: Seaweed1 Prop 22
   m_TagString: Untagged
@@ -105132,10 +105243,10 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: 2265772221871457914, guid: fe9389cba38b8ab80b71f5b365295ded, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.78, g: 0.9, b: 0.85, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -105145,6 +105256,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!114 &2131494429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2131494426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 615b8b829326574b4808361cd952d1c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BelowTheBlue.Runtime::BelowTheBlue.World.FadeOverPlayer
+  player: {fileID: 1083591336}
+  fadedAlpha: 0.4
+  fadeSpeed: 6
+  overlapWidthScale: 0.7
 --- !u!1 &2141938504
 GameObject:
   m_ObjectHideFlags: 0
@@ -105251,6 +105378,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2143013768}
   - component: {fileID: 2143013769}
+  - component: {fileID: 2143013770}
   m_Layer: 0
   m_Name: Seaweed1 Prop 10
   m_TagString: Untagged
@@ -105320,10 +105448,10 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: 2265772221871457914, guid: fe9389cba38b8ab80b71f5b365295ded, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.78, g: 0.9, b: 0.85, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -105333,6 +105461,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!114 &2143013770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143013767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 615b8b829326574b4808361cd952d1c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BelowTheBlue.Runtime::BelowTheBlue.World.FadeOverPlayer
+  player: {fileID: 1083591336}
+  fadedAlpha: 0.4
+  fadeSpeed: 6
+  overlapWidthScale: 0.7
 --- !u!1001 &930402166808632691
 PrefabInstance:
   m_ObjectHideFlags: 0

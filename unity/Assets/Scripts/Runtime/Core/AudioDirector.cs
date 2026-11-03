@@ -12,6 +12,7 @@ namespace BelowTheBlue.Core
         [SerializeField] private CollectorArm arm;
 
         [SerializeField] private AudioClip ambient;
+        [SerializeField] private AudioClip music;
         [SerializeField] private AudioClip hit;
         [SerializeField] private AudioClip grab;
         [SerializeField] private AudioClip collect;
@@ -20,10 +21,12 @@ namespace BelowTheBlue.Core
         [SerializeField] private AudioClip lose;
 
         [SerializeField, Range(0f, 1f)] private float ambientVolume = 0.35f;
+        [SerializeField, Range(0f, 1f)] private float musicVolume = 0.3f;
         [SerializeField, Range(0f, 1f)] private float effectsVolume = 0.8f;
         [SerializeField, Min(1)] private int warningSeconds = 20;
 
         private AudioSource loopSource;
+        private AudioSource musicSource;
         private AudioSource effectsSource;
         private int lastWarningSecond = -1;
         private int lastHealth = int.MaxValue;
@@ -35,6 +38,11 @@ namespace BelowTheBlue.Core
             loopSource.loop = true;
             loopSource.volume = ambientVolume;
             loopSource.playOnAwake = false;
+            musicSource = gameObject.AddComponent<AudioSource>();
+            musicSource.clip = music;
+            musicSource.loop = true;
+            musicSource.volume = musicVolume;
+            musicSource.playOnAwake = false;
             effectsSource = gameObject.AddComponent<AudioSource>();
             effectsSource.playOnAwake = false;
         }
@@ -95,6 +103,11 @@ namespace BelowTheBlue.Core
             {
                 loopSource.Play();
             }
+
+            if (music != null)
+            {
+                musicSource.Play();
+            }
         }
 
         private void OnHealthChanged(int current, int maximum)
@@ -130,6 +143,7 @@ namespace BelowTheBlue.Core
         private void OnEnded(RunOutcome outcome)
         {
             loopSource.volume = ambientVolume * 0.4f;
+            musicSource.volume = musicVolume * 0.35f;
             Play(outcome == RunOutcome.Won ? win : lose);
         }
 

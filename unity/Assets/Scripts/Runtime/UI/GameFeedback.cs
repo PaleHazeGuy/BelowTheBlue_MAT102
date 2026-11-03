@@ -22,6 +22,7 @@ namespace BelowTheBlue.UI
         [SerializeField] private Color lowOxygenColor = new Color(1f, 0.1f, 0.05f, 0.22f);
         [SerializeField, Min(1)] private int warningSeconds = 20;
         [SerializeField, Min(0.05f)] private float flashSeconds = 0.35f;
+        [SerializeField, Min(0.5f)] private float fireSeconds = 7f;
 
         private Color flashColor;
         private float flashTime;
@@ -134,6 +135,7 @@ namespace BelowTheBlue.UI
                 {
                     wreckFire.transform.position = health.transform.position;
                     wreckFire.Play(true);
+                    StartCoroutine(BurnOut());
                 }
             }
 
@@ -141,6 +143,15 @@ namespace BelowTheBlue.UI
             if (cameraShake != null)
             {
                 cameraShake.Shake(0.5f, 0.7f);
+            }
+        }
+
+        private System.Collections.IEnumerator BurnOut()
+        {
+            yield return new WaitForSecondsRealtime(fireSeconds);
+            if (wreckFire != null)
+            {
+                wreckFire.Stop(true, ParticleSystemStopBehavior.StopEmitting);
             }
         }
 
