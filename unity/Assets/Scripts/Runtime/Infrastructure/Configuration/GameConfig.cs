@@ -48,7 +48,7 @@ namespace BelowTheBlue.Infrastructure.Configuration
     public sealed class InputSettings
     {
         public float deadZone = 0.15f;
-        public bool invertX;
+        public bool invertX = true;
         public bool invertY;
 
         internal void Validate()

@@ -10,7 +10,7 @@
   },
   "input": {
     "deadZone": 0.15,
-    "invertX": false,
+    "invertX": true,
     "invertY": false
   }
 }
