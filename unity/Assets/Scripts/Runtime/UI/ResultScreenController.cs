@@ -25,8 +25,12 @@ namespace BelowTheBlue.UI
         [SerializeField] private string outOfOxygenText = "The oxygen ran out before the surface.";
         [SerializeField] private string notEnoughSamplesText = "You surfaced without enough samples.";
 
+        [SerializeField, Min(0f)] private float retryAfterSeconds = 0.6f;
+
         private bool shown;
         private bool leaving;
+        private bool ended;
+        private float endedAt;
 
         private void OnEnable()
         {
@@ -72,7 +76,7 @@ namespace BelowTheBlue.UI
 
         private void Update()
         {
-            if (shown && !leaving && input != null && input.InteractPressedThisFrame)
+            if (ended && !leaving && Time.unscaledTime - endedAt >= retryAfterSeconds && input != null && input.InteractPressedThisFrame)
             {
                 Retry();
             }
@@ -80,6 +84,8 @@ namespace BelowTheBlue.UI
 
         private void OnEnded(RunOutcome outcome)
         {
+            ended = true;
+            endedAt = Time.unscaledTime;
             if (outcome == RunOutcome.Won)
             {
                 StartCoroutine(Show(winGroup, winDelay, WinDetailText(), winDetail));
@@ -148,6 +154,7 @@ namespace BelowTheBlue.UI
             }
 
             leaving = true;
+            IntroController.RequestIntro();
             Time.timeScale = 1f;
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }

@@ -125,7 +125,12 @@ namespace BelowTheBlue.World
 
             if (t >= 1f)
             {
-                gameObject.SetActive(false);
+                foreach (Renderer hidden in GetComponentsInChildren<Renderer>(true))
+                {
+                    hidden.enabled = false;
+                }
+
+                isSinking = false;
             }
         }
     }

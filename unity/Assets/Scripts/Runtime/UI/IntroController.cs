@@ -15,6 +15,11 @@ namespace BelowTheBlue.UI
             seen = false;
         }
 
+        public static void RequestIntro()
+        {
+            seen = false;
+        }
+
         [SerializeField] private GameObject introRoot;
         [SerializeField] private GameObject[] pages;
         [SerializeField] private PlayerInputReader input;

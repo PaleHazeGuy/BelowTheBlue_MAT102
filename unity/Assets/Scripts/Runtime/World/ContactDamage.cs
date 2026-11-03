@@ -16,6 +16,8 @@ namespace BelowTheBlue.World
         [SerializeField, Min(1)] private int damage = 1;
         [SerializeField, Min(0f)] private float knockbackSpeed = 8f;
 
+        public ObstacleDamageMode Mode => mode;
+
         private void Awake()
         {
             foreach (Collider2D obstacleCollider in GetComponents<Collider2D>())

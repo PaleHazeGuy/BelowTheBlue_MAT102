@@ -16,6 +16,7 @@ namespace BelowTheBlue.UI
         [SerializeField] private Image flash;
         [SerializeField] private ParticleSystem collectBurst;
         [SerializeField] private ParticleSystem explosion;
+        [SerializeField] private ParticleSystem wreckFire;
         [SerializeField] private Color hitColor = new Color(1f, 0.15f, 0.1f, 0.5f);
         [SerializeField] private Color winColor = new Color(0.7f, 1f, 0.95f, 0.6f);
         [SerializeField] private Color lowOxygenColor = new Color(1f, 0.1f, 0.05f, 0.22f);
@@ -128,6 +129,12 @@ namespace BelowTheBlue.UI
             {
                 explosion.transform.position = health.transform.position;
                 explosion.Play();
+
+                if (wreckFire != null)
+                {
+                    wreckFire.transform.position = health.transform.position;
+                    wreckFire.Play(true);
+                }
             }
 
             Flash(hitColor, 0.8f);
